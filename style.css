@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)) ,url('https://w0.peakpx.com/wallpaper/651/474/HD-wallpaper-dhaka-city-bangladesh-central-new-sunset.jpg');
+    background-repeat: no-repeat center center;
+    background-size: cover; 
+    opacity: 0.8;
+    font-size: 120%;
+}
+
+.weather-container {
+    width: 100%;
+    max-width: 420px;
+    background-color: #000000d0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 1em;
+    padding: 2em;
+    color:white;
+}
+
+.weather-info{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.temp{
+    font-size: 50px;
+    padding: 25px;
+}
+.search{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#btn{
+margin: 0.4em 1em;
+border-radius: 50%;
+border: none;
+height:46px;
+width: 56px;
+outline: none;
+background-color: #7c7c7c2b;
+color: white;
+cursor: pointer;
+transition: 0.2s ease-in-out;
+font-size: 80%;
+}
+
+#btn i{
+    padding: .3em;
+    font-size: 1.5em;
+}
+
+#btn:hover{
+    background: #7c7c7c6b;
+}
+
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background-color: #7c7c7c2b;
+    font-family: inherit;
+    font-size:105%;
+    color: white;
+    width: 100vw;
+}
+
+
+
+
+
+
